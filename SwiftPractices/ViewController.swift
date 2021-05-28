@@ -36,7 +36,6 @@ class ViewController: UIViewController {
         if let existentFirstName = firstName,
            let existentLastName = lastName {
             fullName = "\(existentFirstName) \(existentLastName)"
-
         }
         
         return fullName
