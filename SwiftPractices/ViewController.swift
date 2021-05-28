@@ -10,10 +10,26 @@ import UIKit
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
-
-
+      super.viewDidLoad()
+      
+      let firstFullName = getFullName(firstName: nil, lastName: "GP")
+      let secondFullName = getFullName(firstName: "Gabriel", lastName: "Rosa")
+      let thirdFullName = getFullName(firstName: "Ana", lastName: nil)
+      
+      print(firstFullName)
+      print(secondFullName)
+      print(thirdFullName)
+    }
+    
+    func getFullName(firstName: String?, lastName: String?) -> String {
+      guard let existentFirstName = firstName,
+            let existentLastName = lastName else {
+        return "N tenho um deles"
+      }
+      
+      let fullName = "Mister \(existentFirstName) \(existentLastName)"
+      
+      return fullName
+    }
 }
 
