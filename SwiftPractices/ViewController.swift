@@ -20,25 +20,5 @@ class ViewController: UIViewController {
       print(secondFullName)
       print(thirdFullName)
     }
-    
-    func getFullName(firstName: String?, lastName: String?) -> String {
-//      guard let existentFirstName = firstName,
-//            let existentLastName = lastName else {
-//        return "N tenho um deles"
-//      }
-//
-//      let fullName = "Mister \(existentFirstName) \(existentLastName)"
-//
-//      return fullName
-        
-        var fullName = ""
-        
-        if let existentFirstName = firstName,
-           let existentLastName = lastName {
-            fullName = "\(existentFirstName) \(existentLastName)"
-        }
-        
-        return fullName
-    }
 }
 
