@@ -14,25 +14,25 @@ class FirstTests: XCTestCase {
     
     func testSum() {
         
-        let expectected = 4
+        let expected = 4
         let result = sum(firstNumber: 2, secondNumber: 2)
         
-        XCTAssertEqual(expectected, result)
+        XCTAssertEqual(expected, result)
     }
     
     func testSumWithFirstNumberNilValue() {
         
-        let expectected = 2
+        let expected = 2
         let result = sum(firstNumber: nil, secondNumber: 2)
         
-        XCTAssertEqual(expectected, result)
+        XCTAssertEqual(expected, result)
     }
     
     func testSumWithSecondNumberNilValue() {
         
-        let expectected = 3
+        let expected = 3
         let result = sum(firstNumber: 3, secondNumber: nil)
         
-        XCTAssertEqual(expectected, result)
+        XCTAssertEqual(expected, result)
     }
 }
