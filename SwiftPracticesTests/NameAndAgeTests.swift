@@ -41,4 +41,20 @@ class NameAndAgeTests: XCTestCase {
         
         XCTAssertEqual(expected, result)
     }
+    
+    func testGetNameAndAgeWithNameInvalidValue() {
+
+        let expected = "Valor inválido: O nome precisa ser do tipo texto"
+        let result = getNameAndAge(name: 10, age: 15)
+
+        XCTAssertEqual(expected, result)
+    }
+
+    func testGetNameAndAgeWithAgeInvalidValue() {
+
+        let expected = "Valor inválido: A idade precisa ser do tipo numérico"
+        let result = getNameAndAge(name: "Antônio", age: "Carlos")
+
+        XCTAssertEqual(expected, result)
+    }
 }
