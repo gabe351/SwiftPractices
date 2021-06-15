@@ -17,6 +17,10 @@
 		006610BD2661203F00198525 /* SwiftPracticesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006610BC2661203F00198525 /* SwiftPracticesUITests.swift */; };
 		5A49A623266F94C1001CAB63 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49A622266F94C1001CAB63 /* FirstTests.swift */; };
 		5A49A625266F9832001CAB63 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49A624266F9832001CAB63 /* Operations.swift */; };
+		5A6A5B112678410900981355 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B102678410900981355 /* ProfileTests.swift */; };
+		5A6A5B132678411A00981355 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B122678411A00981355 /* Profile.swift */; };
+		5A6A5B152678415200981355 /* NameAndAgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B142678415200981355 /* NameAndAgeTests.swift */; };
+		5A6A5B172678425000981355 /* NameAndAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B162678425000981355 /* NameAndAge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		006610BE2661203F00198525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A49A622266F94C1001CAB63 /* FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTests.swift; sourceTree = "<group>"; };
 		5A49A624266F9832001CAB63 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		5A6A5B102678410900981355 /* ProfileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		5A6A5B122678411A00981355 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		5A6A5B142678415200981355 /* NameAndAgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndAgeTests.swift; sourceTree = "<group>"; };
+		5A6A5B162678425000981355 /* NameAndAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndAge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +114,13 @@
 				0066109A2661203D00198525 /* AppDelegate.swift */,
 				0066109C2661203D00198525 /* SceneDelegate.swift */,
 				0066109E2661203D00198525 /* ViewController.swift */,
+				5A6A5B122678411A00981355 /* Profile.swift */,
 				006610A02661203D00198525 /* Main.storyboard */,
 				006610A32661203F00198525 /* Assets.xcassets */,
 				006610A52661203F00198525 /* LaunchScreen.storyboard */,
 				006610A82661203F00198525 /* Info.plist */,
 				5A49A624266F9832001CAB63 /* Operations.swift */,
+				5A6A5B162678425000981355 /* NameAndAge.swift */,
 			);
 			path = SwiftPractices;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 		006610B02661203F00198525 /* SwiftPracticesTests */ = {
 			isa = PBXGroup;
 			children = (
+				5A6A5B102678410900981355 /* ProfileTests.swift */,
+				5A6A5B142678415200981355 /* NameAndAgeTests.swift */,
 				006610B12661203F00198525 /* SwiftPracticesTests.swift */,
 				006610B32661203F00198525 /* Info.plist */,
 				5A49A622266F94C1001CAB63 /* FirstTests.swift */,
@@ -264,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6A5B172678425000981355 /* NameAndAge.swift in Sources */,
 				0066109F2661203D00198525 /* ViewController.swift in Sources */,
+				5A6A5B132678411A00981355 /* Profile.swift in Sources */,
 				0066109B2661203D00198525 /* AppDelegate.swift in Sources */,
 				0066109D2661203D00198525 /* SceneDelegate.swift in Sources */,
 				5A49A625266F9832001CAB63 /* Operations.swift in Sources */,
@@ -275,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6A5B152678415200981355 /* NameAndAgeTests.swift in Sources */,
+				5A6A5B112678410900981355 /* ProfileTests.swift in Sources */,
 				5A49A623266F94C1001CAB63 /* FirstTests.swift in Sources */,
 				006610B22661203F00198525 /* SwiftPracticesTests.swift in Sources */,
 			);
