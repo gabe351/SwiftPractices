@@ -19,6 +19,8 @@ class ViewController: UIViewController {
       print(firstFullName)
       print(secondFullName)
       print(thirdFullName)
+    print("Se vire minha amiga")
+    
     }
 }
 
