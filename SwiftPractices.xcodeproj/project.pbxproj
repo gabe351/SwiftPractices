@@ -19,6 +19,8 @@
 		006CD011267391D2006CD3E8 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CD010267391D2006CD3E8 /* ProfileTests.swift */; };
 		5A49A623266F94C1001CAB63 /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49A622266F94C1001CAB63 /* FirstTests.swift */; };
 		5A49A625266F9832001CAB63 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A49A624266F9832001CAB63 /* Operations.swift */; };
+		5ABB529F26A998080004D778 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB529E26A998080004D778 /* CharacterResponse.swift */; };
+		5ABB52A126A999960004D778 /* StarWarsApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB52A026A999960004D778 /* StarWarsApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		006CD010267391D2006CD3E8 /* ProfileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		5A49A622266F94C1001CAB63 /* FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTests.swift; sourceTree = "<group>"; };
 		5A49A624266F9832001CAB63 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		5ABB529E26A998080004D778 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
+		5ABB52A026A999960004D778 /* StarWarsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		006610992661203D00198525 /* SwiftPractices */ = {
 			isa = PBXGroup;
 			children = (
+				5ABB529D26A997C40004D778 /* Api */,
 				0066109A2661203D00198525 /* AppDelegate.swift */,
 				0066109C2661203D00198525 /* SceneDelegate.swift */,
 				0066109E2661203D00198525 /* ViewController.swift */,
@@ -138,6 +143,15 @@
 				006610BE2661203F00198525 /* Info.plist */,
 			);
 			path = SwiftPracticesUITests;
+			sourceTree = "<group>";
+		};
+		5ABB529D26A997C40004D778 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				5ABB529E26A998080004D778 /* CharacterResponse.swift */,
+				5ABB52A026A999960004D778 /* StarWarsApiService.swift */,
+			);
+			path = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,8 @@
 				0066109F2661203D00198525 /* ViewController.swift in Sources */,
 				006CD00F267391AB006CD3E8 /* Profile.swift in Sources */,
 				0066109B2661203D00198525 /* AppDelegate.swift in Sources */,
+				5ABB52A126A999960004D778 /* StarWarsApiService.swift in Sources */,
+				5ABB529F26A998080004D778 /* CharacterResponse.swift in Sources */,
 				0066109D2661203D00198525 /* SceneDelegate.swift in Sources */,
 				5A49A625266F9832001CAB63 /* Operations.swift in Sources */,
 			);

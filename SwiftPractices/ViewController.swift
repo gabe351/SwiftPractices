@@ -11,15 +11,9 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
       super.viewDidLoad()
-      
-      let firstFullName = getFullName(firstName: nil, lastName: "GP")
-      let secondFullName = getFullName(firstName: "Gabriel", lastName: "Rosa")
-      let thirdFullName = getFullName(firstName: "Ana", lastName: nil)
-      
-      print(firstFullName)
-      print(secondFullName)
-      print(thirdFullName)
-
+      print("antes do request")
+      StarWarsApiService().fetchPeople()
+      print("depois do request")
     }
 }
 

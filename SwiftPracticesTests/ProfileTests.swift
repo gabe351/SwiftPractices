@@ -20,7 +20,7 @@ class ProfileTests: XCTestCase {
     
     func testGetFullNameWithFirstNameNilValue() {
         
-        let expected = ""
+        let expected = "- Gama"
         let result = getFullName(firstName: nil, lastName: "Gama")
         
         XCTAssertEqual(expected, result)
@@ -28,10 +28,17 @@ class ProfileTests: XCTestCase {
     
     func testGetFullNameWithSecondNameNilValue() {
         
-        let expected = ""
+        let expected = "Ana Geórgia -"
         let result = getFullName(firstName: "Ana Geórgia", lastName: nil)
         
         XCTAssertEqual(expected, result)
     }
-    
+
+    func testGetFullNameBothNilValue() {
+
+        let expected = "- -"
+        let result = getFullName(firstName: nil, lastName: nil)
+
+        XCTAssertEqual(expected, result)
+    }
 }
